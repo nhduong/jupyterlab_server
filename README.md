@@ -31,7 +31,21 @@ Chonnam National University
   }
 }
 ```
-6. Open `Task Scheduler`, `Create Basic Task...`, enter the task name, e.g., JupyterLab, select `When the computer starts`, `Start a program`, `C:\Program Files\Anaconda3\Scripts\jupyter-lab.exe`, `Open the Properties dialog....`, `Finish`, `Run whether user is logged on or not`, `Trigger`, `Delay task for 30 seconds`, `OK`
+6. Open `Task Scheduler`  
+- `Create Basic Task...`
+- Enter the task name, e.g., JupyterLab
+- Select `When the computer starts`
+- `Start a program`
+- Program/script: `"C:\Program Files\Anaconda3\python.exe"`
+- Add arguments (optional): `"C:\Program Files\Anaconda3\cwp.py" "C:\Program Files\Anaconda3" "C:/Program Files/Anaconda3/python.exe" "C:/Program Files/Anaconda3/Scripts/jupyter-notebook-script.py"`
+- `Open the Properties dialog....`
+- `Finish`
+- `Run whether user is logged on or not`
+- `Trigger`
+- `Delay task for 30 seconds`
+- `OK`
+(Note that this method may prevent opencv from showing the images)  
+* Another option is copy a link of 'C:\Program Files\Anaconda3\Scripts\jupyter-lab.exe' to Startup folder in Start Menu of the Windows system  
 7. Click `Run` to start the server. Whenever the computer is restarted, the server will start automatically
 8. Open Command Prompt as Administrator, type `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux` to enable Windows Subsystem for Linux feature in Windows 10
 9. Install Ubuntu for Windows from the Windows Store, run it
