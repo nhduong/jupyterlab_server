@@ -43,7 +43,9 @@ Chonnam National University
 - `Run whether user is logged on or not`
 - `Trigger`
 - `Delay task for 30 seconds`
-- `OK`
+- `OK`  
+  
+  
 (Note that this method may prevent opencv from showing the images)  
 * Another option is copy a link of 'C:\Program Files\Anaconda3\Scripts\jupyter-lab.exe' to Startup folder in Start Menu of the Windows system  
 7. Click `Run` to start the server. Whenever the computer is restarted, the server will start automatically
