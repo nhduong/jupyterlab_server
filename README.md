@@ -44,15 +44,15 @@ Chonnam National University
 - `Trigger`
 - `Delay task for 30 seconds`
 - `OK`  
+- Click `Run` to start the server. Whenever the computer is restarted, the server will start automatically  
   
   
 (Note that this method may prevent opencv from showing the images)  
-* Another option is copy a link of 'C:\Program Files\Anaconda3\Scripts\jupyter-lab.exe' to Startup folder in Start Menu of the Windows system  
-7. Click `Run` to start the server. Whenever the computer is restarted, the server will start automatically
-8. Open Command Prompt as Administrator, type `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux` to enable Windows Subsystem for Linux feature in Windows 10
-9. Install Ubuntu for Windows from the Windows Store, run it
-10. Enter `openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mykey.key -out mycert.pem` in the Ubuntu terminal to generate SSL certificate to sercure jupyter server
-11. Open a web browser (not Internet Explorer!), go to `https://your-public-IP:8888` (httpS not http)
-12. You should receive some warnings from the browser, skip all of them
-13. Enter the password to access you server
-14. To logout the server, click `Help` > `Launch Classic Notebook` > `Logout`. This step is VERY important in case you used a public computer to access your server
+* Another option is copying the link of `'C:\Program Files\Anaconda3\Scripts\jupyter-lab.exe'` to `Startup` folder in `Start Menu` of the Windows system, run the link.  
+7. Open Command Prompt as Administrator, type `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux` to enable Windows Subsystem for Linux feature in Windows 10
+8. Install Ubuntu for Windows from the Windows Store, run it
+9. Enter `openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mykey.key -out mycert.pem` in the Ubuntu terminal to generate SSL certificate to sercure jupyter server
+10. Open a web browser (not Internet Explorer!), go to `https://your-public-IP:8888` (httpS not http)
+11. You should receive some warnings from the browser, skip all of them
+12. Enter the password to access you server
+13. To logout the server, click `Help` > `Launch Classic Notebook` > `Logout`. This step is VERY important in case you used a public computer to access your server
