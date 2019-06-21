@@ -10,7 +10,7 @@ Chonnam National University
 ## Environment Setup
 1. Download and install [Anaconda 4.2.0 with Python 3.5](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe)
 2. Open Command Prompt as Administrator
-3. Type `conda install -c conda-forge jupyterlab` to install jupyterlab, then `jupyter serverextension enable --py jupyterlab` to enable jupyterlab. Validate the installation by `jupyter lab --version`. (pip install jupyterlab==1.0.0a0)
+3. Type `conda install -c conda-forge jupyterlab` to install jupyterlab, then `jupyter serverextension enable --py jupyterlab` to enable jupyterlab. Validate the installation by `jupyter lab --version`. (`pip install jupyterlab==1.0.0a0`)
 4. In order to protect jupyter server, we need to set the password by `jupyter notebook password`, enter the your password. The password will be saved in `C:\Users\<your name>\.jupyter\jupyter_notebook_config.json`
 5. Open `jupyter_notebook_config.json`, add the following:
 ```
