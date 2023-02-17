@@ -48,7 +48,8 @@ or
 }
 ```
 
-Then `nohup jupyter-lab &`
+Then `nohup jupyter-lab &`  
+
 6. Open `Task Scheduler`  
 - `Create Basic Task...`
 - Enter the task name, e.g., JupyterLab
