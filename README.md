@@ -43,10 +43,12 @@ or
     "ip": "*",
     "open_browser": false,
     "port": 59999,
-    "notebook_dir": "/home/nhduong/downloads/csd",
+    "notebook_dir": "/home/nhduong/downloads/csd"
   }
 }
 ```
+
+Then `nohup jupyter-lab &`
 6. Open `Task Scheduler`  
 - `Create Basic Task...`
 - Enter the task name, e.g., JupyterLab
